@@ -51,7 +51,7 @@ const App = () => {
 
   return (
     <div>
-      <h2>Rent Vehicle</h2>
+      <h1>Vehicle Rental Form</h1>
       {currentStep === 1 && (
         <UserName formData={formData} setFormData={setFormData} />
       )}
